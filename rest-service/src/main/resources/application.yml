@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2
+  datasource:
+    url: jdbc:h2:file:~/springSample
+    username: sa
+    password:
+    drive-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: false
+
+flyway:
+  baseline-on-migrate: true

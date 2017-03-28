@@ -8,6 +8,8 @@ import lombok.Data;
 @Data
 public class Bike {
 
+    private String serialNumber;
+
     private String brand;
 
     private String model;
